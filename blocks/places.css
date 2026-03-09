@@ -19,106 +19,6 @@
   height: 100%;
 }
 
-.place__title,
-.website__url-heading,
-.website__artist,
-.place__paragraph,
-.button__text {
-  margin: 0;
-  font-family: Inter;
-
-}
-
-.place__title {
-  grid-area: title;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-  letter-spacing: 0%;
-
-}
-
-.place__image {
-  grid-area: image;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
-  box-shadow: 10px 10px 25px 0px #00000080;
-}
-
-.place__image:hover {
-  filter: brightness(50%);
-
-}
-
-.place__website {
-  grid-area: website;
-  align-content: end;
-
-}
-
-.website__url-heading {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 100%;
-  letter-spacing: 12%;
-  text-transform: uppercase;
-  text-align: start;
-  text-justify: initial;
-  padding-bottom: 8px;
-  color: #AAAAAA;
-}
-
-.website__artist {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0%;
-}
-
-.place__paragraph {
-  grid-area: paragraph;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 163%;
-  letter-spacing: 0%;
-}
-
-.place__link {
-  grid-area: button;
-}
-
-.place__button {
-
-  width: auto;
-  height: auto;
-
-
-  opacity: 1;
-  border-radius: 4px;
-  padding-top: 13px;
-  padding-right: 20px;
-  padding-bottom: 13px;
-  padding-left: 20px;
-  gap: 10px;
-
-  background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
-
-  box-shadow: 5px 5px 10px 0px #00000040;
-  color: #FFFFFF;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0%;
-
-}
-
-.place__button:hover {
-  background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
-  box-shadow: 5px 5px 10px 0px #00000040;
-}
-
 @media screen and (max-width: 1024px) {
   .places {
     max-width: 720px;
@@ -127,20 +27,6 @@
   .places__place {
     gap: 48px 28px;
   }
-
-  .place__title {
-    font-size: 42px;
-    line-height: 46px;
-  }
-
-  .place__paragraph {
-    font-size: 16px;
-  }
-
-  .place__image {
-    width: 340;
-  }
-
 }
 
 @media screen and (max-width: 544px) {
@@ -158,14 +44,5 @@
       "image"
       "paragraph"
       "button";
-  }
-
-  .place__title {
-    font-size: 32px;
-    line-height: 35px;
-  }
-
-  .place__image {
-    width: 320;
   }
 }
