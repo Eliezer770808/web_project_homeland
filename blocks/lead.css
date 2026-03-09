@@ -14,7 +14,7 @@
 
 .lead__title,
 .lead__subtitle {
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: center;
   margin: 0 auto;
 }
@@ -22,7 +22,6 @@
 .lead__title {
   max-width: 73%;
   font-weight: 900;
-  font-style: Black;
   font-size: 96px;
   line-height: 100px;
   margin-bottom: 32px;
@@ -56,6 +55,7 @@
     max-width: 320px;
     padding-bottom: 64px;
   }
+
   .lead__title {
     max-width: 71%;
     font-size: 40px;

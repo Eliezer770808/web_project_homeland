@@ -13,7 +13,7 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 
 }
 
@@ -41,7 +41,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
-  letter-spacing: 12%;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   text-align: start;
   text-justify: initial;
@@ -53,7 +53,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .place__paragraph {
@@ -61,7 +61,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .place__link {
@@ -80,7 +80,7 @@
   }
 
   .place__image {
-    width: 340;
+    width: 340px;
   }
 
 }
@@ -93,6 +93,6 @@
   }
 
   .place__image {
-    width: 320;
+    width: 320px;
   }
 }
