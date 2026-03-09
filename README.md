@@ -1,4 +1,4 @@
-# Tripleten web\_project\_homeland
+# Tripleten web_project_homeland
 
 Proyecto mediante el cual se implementa un diseño responsivo a través de media query con 2 puntos de quiebre. El sitio se realizó con base en un diseño proporcionado hecho en Figma y garantiza una proyección correcta en monitores grandes, tabletas y delulares.
 
@@ -8,8 +8,6 @@ Proyecto mediante el cual se implementa un diseño responsivo a través de media
 **Lead**: Contiene el título, subtítulo y una imagen representativa.
 **Intro**: Contiene el título, una cita de Joseph Beuys y el texto del sitio.
 
-
-
 Para esta nueva versión, se han añadido los siguientes bloques:
 
 **Photo-grid:** Despliega fotos 8 lugares. este grid es responsivo y se adapta a diversos tamaños de pantallas.
@@ -18,23 +16,19 @@ Para esta nueva versión, se han añadido los siguientes bloques:
 
 **Botón para compra;** botón que cambia el color de su degradado al pasar el mouse encima de él.
 
-
-
-
 **Footer**: En el que se despliega el nombre del programador del sitio.
 
 ## Tecnologías utilizadas:
 
-* HTML5
-* CSS (con metodología BEM)
-* Normalize.css
-* Diseño responsivo
-* Fuentes personalizadas
-* Degradados
-* Grid
-* filtros para imágenes.
+- HTML5
+- CSS (con metodología BEM)
+- Normalize.css
+- Diseño responsivo
+- Fuentes personalizadas
+- Degradados
+- Grid
+- filtros para imágenes.
 
 Enlace a Github Pages:
 
 https://eliezer770808.github.io/web\_project\_homeland/
-
